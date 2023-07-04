@@ -840,8 +840,8 @@ header {
     line-height: 1.16;
 }
 
-.input-check:checked+.label-span {
-    background-color: rgba(64, 75, 191, 1);
+.input-check:checked + .label-span {
+    background-color: #404bbf;
     border: none;
     fill: var(--icon-color);
 
