@@ -783,8 +783,11 @@ header {
 
 .modal-label {
     font-style: 12px;
-    color: #8E8F99;
-    display: inline-block;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+
+    color: var(--color-custom-link);
+    display: block; 
     margin-bottom: 4px;
 
 }
