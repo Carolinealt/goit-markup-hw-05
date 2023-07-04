@@ -590,7 +590,7 @@ header {
 }
 
 .project-item-link:hover,
-.project-item-link:focus {  
+.project-item-link:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -648,8 +648,64 @@ header {
 
 
 
+.text-sub {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #ffffff
+}
 
+.form-sub{
+    display: flex;
+    gap: 24px;
 
+}
+
+.sub-email{
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent; 
+    font-size: 12px; 
+    line-height: 1.5; 
+    letter-spacing: 0.04em; 
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); 
+    border-radius: 4px; 
+    color: #ffffff; 
+}
+
+.sub-email::placeholder{
+    color: #ffffff;
+}
+
+.sub-btn{
+    min-width: 165px;
+    height: 40px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5 ;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;;
+    border-radius: 4px;
+
+}
+
+.sub-icon{
+    margin-left: 16px;
+    
+}
 
 
 /*------------------------------------backdrop---------------------- */
@@ -688,6 +744,10 @@ header {
     letter-spacing: 0.02em;
     text-align: center;
     margin-bottom: 16px;
+}
+
+.modal-title-footer {
+    color: #ffffff;
 }
 
 .modal-field {
@@ -839,7 +899,7 @@ header {
     pointer-events: none;
 }
 
-.modal-send{
+.modal-send {
     font-weight: 500;
     font-size: 16px;
     color: rgba(255, 255, 255, 1);
@@ -854,6 +914,6 @@ header {
 }
 
 .modal-send:hover,
-.modal-send:focus{
+.modal-send:focus {
     background-color: rgba(64, 75, 191, 1);
 }
