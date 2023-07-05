@@ -852,10 +852,6 @@ header {
 
 }
 
-.input-check:focus+.check-text .label-span {
-    border: black solid 1px;
-}
-
 .label-span:focus {
     display: none;
 }
